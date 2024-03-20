@@ -1,4 +1,3 @@
-
 name: daily-devcard
 on:
   workflow_dispatch:
@@ -16,5 +15,5 @@ jobs:
       - name: devcard
         uses: dailydotdev/action-devcard@3.0.0
         with:
-          user_id: ${{ secrets.8VR8WLNFMDv3i4N7RQQCj }}
+          user_id: ${{ secrets.USER_ID }}
           commit_message: "chore: update ${filename}"
